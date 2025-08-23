@@ -26,9 +26,9 @@ class Solution:
             else:
                     total += cur
 
-            print(f"index={i}, character={s[i]}, current={cur}, next={nxt}")
-            print("->total now:", total)
+            #print(f"index={i}, character={s[i]}, current={cur}, next={nxt}")
+            #print("->total now:", total)
         return total
 
 if __name__ == "__main__":
-    print(Solution().romanToInt("XLIX"))
+    print(Solution().romanToInt("MCMXCIV"))
